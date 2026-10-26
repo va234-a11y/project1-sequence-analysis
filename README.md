@@ -1,7 +1,7 @@
 # project1-sequence-analysis
 Finding mutations within different samples
 
-### How do you run the program?
-### Inputs and Outputs
-### Code design 
-### Testing 
+### <ins> How do you run the program? </ins>
+### <ins> Inputs and Outputs </ins>
+### <ins> Code design </ins>
+### <ins> Testing </ins>
