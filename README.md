@@ -9,10 +9,10 @@ Open Google Colab. Click on 'File and then 'Open notebook' and then 'GitHub'. Pa
 The inputs include 200-nt reference sequence, reference.txt and reads.csv. There are 6000 reads that each have read_id, sample, group and sequence. 
 
 ## <ins> Code design </ins>
-### Counting separate from printing 
+#### Counting separate from printing 
 My first summarise_samples was one long function but found it too difficult to keep track of my code. Instead, splitting it into sections like count_read, finalise_record and two printing function kept my work more organised and easier to track.
 
-### Reusing functions for Steps 4 and 5
+#### Reusing functions for Steps 4 and 5
 calculate_percentage returned 'None' when there are no valid reads in a sample and allows the function to run without crashing or giving 0%. It is also used in Step 5 so invalid reads are excluded. 
 
 ## <ins> Testing </ins>
